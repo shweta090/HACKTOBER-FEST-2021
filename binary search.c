@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int a[100],n,i;
+    int a[200],n,i;
     printf("\n Enter no. of elements : ");
     scanf("%d",&n);
     printf("\n Enter array : ");
@@ -9,7 +9,6 @@ int main()
     {
         scanf("%d",&a[i]);
     }
-    //Arrange array in ascending order.
     int temp,j;
     for(i=0;i<n-1;i++)
     {
